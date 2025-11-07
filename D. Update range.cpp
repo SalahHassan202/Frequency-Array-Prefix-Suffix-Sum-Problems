@@ -7,8 +7,7 @@ using namespace std ;
 
 void solve()
 {
-    ll n , q ; 
-    cin >> n >> q ; 
+    ll n , q ;     cin >> n >> q ; 
     vector<ll>v(n) ;
     for(int i = 0 ;i<n ;i++) cin>>v[i] ;
 
@@ -32,7 +31,7 @@ void solve()
     {
         cout << v[i] + pref[i] << " " ; 
     }
-
+    
     cout << endl; 
 
 }
@@ -47,6 +46,5 @@ int main()
         solve();
     }
   
-    
     return 0 ;
 }
