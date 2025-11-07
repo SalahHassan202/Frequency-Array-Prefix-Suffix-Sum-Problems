@@ -15,7 +15,6 @@ void solve()
         cin >> a >> b ; 
         if(a == 1) freq[b]++;
         else cout << freq[b] << endl;
-
     }
 
 }
@@ -29,7 +28,5 @@ int main()
     {
         solve();
     }
-  
-    
     return 0 ;
 }
