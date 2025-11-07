@@ -7,7 +7,7 @@ using namespace std ;
 
 void solve()
 {
-    ll n , k ; cin >> n >> k ; 
+    ll n , k ;     cin >> n >> k ; 
     string s ; cin >> s ;
     ll freq[26] ={} ;    // 0 0 0 0 0 0 0 0 0 ....... 0  ==>// 26 zeros
     for(int i =0 ;i<s.size() ; i++)
@@ -54,6 +54,5 @@ int main()
         solve();
     }
   
-    
     return 0 ;
 }
