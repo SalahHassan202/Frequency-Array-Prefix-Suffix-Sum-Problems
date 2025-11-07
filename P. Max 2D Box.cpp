@@ -37,6 +37,7 @@ void solve()
         }
    }
    cout << ans << endl;
+   
 }
 int main()
 {
@@ -49,6 +50,5 @@ int main()
         solve();
     }
   
-    
     return 0 ;
 }
